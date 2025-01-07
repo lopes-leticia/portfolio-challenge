@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:wght@100..900&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0 10px 0 10px;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: #EAC696;
+    font-family: "Raleway", sans-serif;
+    color: #65451F;
+    text-decoration: none;
+}
+
+/* CABEÇALHO */
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-left: 120px;
+}
+.cabecalho__nome{
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cabecalho__links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* PRINCIPAL */
+.main__container{
+}
+
+.main__apresentacao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.main__apresentacao__principal{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 61px;
+}
+.main__apresentacao__secundario{
+    font-size: 22px;
+}
+.main__apresentacao__links{
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.main__apresentacao__avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+.main__about{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main__skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__skills__titulo{
+    margin-top: 80px;
+    text-align: center;
+}
+.main__skills__conteudo{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main__skills__icon{
+    padding: 15px;
+    background-color: #C8AE7D;
+    border: 3px solid;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    gap: 90px;
+}
+.main__hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__hobbies__titulo{
+    margin-top: 80px;
+    text-align: center;
+}
+.main__hobbies__conteudo{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main__hobbies__icon{
+    padding: 15px;
+    background-color: #C8AE7D;
+    border: 3px solid;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    gap: 90px;
+}
+
+.main__formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__formacao__titulo{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main__formacao__conteudo{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main__formacao__icon{
+    padding: 15px;
+    background-color: #C8AE7D;
+    border: 3px solid;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    gap: 90px;
+
+}
+
+.main__projetos{
+    display: flex;
+    flex-direction:column;
+}
+
+.main__projetos__titulo{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main__projetos__conteudo{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction:column;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.main__projetos__texto{
+
+   
+
+}
+
+.main__projetos__print{
+    width: 550PX;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    gap: 10px;
+}
+
+.botao{
+   
+
+}
+
+.main__contato{
+
+}
